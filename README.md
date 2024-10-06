@@ -47,3 +47,4 @@ docker-compose up -d
        'create_at': '2024-10-06 00:41:22'
 }
 ```
+* From Druid load data from Kafka `kafka:9092`, choice `Ecommrce` topic and config data result table
