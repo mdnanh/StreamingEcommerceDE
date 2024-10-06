@@ -43,18 +43,18 @@ druid_indexer_runner_javaOptsArray=["-server", "-Xmx1g", "-Xms1g", "-XX:MaxDirec
 druid_indexer_fork_property_druid_processing_buffer_sizeBytes=256MiB
 
 # MinIO credentials
-druid_s3_accessKey=qeKci69UluhWf6T2oXo3
-druid_s3_secretKey=j7m1i4NKsx7D4DcSdqrkT22xw7kAlFaQZiBrlpXA
+druid_s3_accessKey=$ACCESSKEY
+druid_s3_secretKey=$SECRETKEY
 druid_s3_endpoint_url=http://minio:9000/
 druid_s3_protocol=http
 
 druid_storage_type=s3
-druid_storage_bucket=druidstorage
+druid_storage_bucket=$druidbucket
 druid_storage_baseKey=druid/segments
 # druid_storage_storageDirectory=/opt/shared/segments
 
 druid_indexer_logs_type=s3
-druid_indexer_logs_s3Bucket=druidstorage
+druid_indexer_logs_s3Bucket=$druidbucket
 druid_indexer_logs_s3Prefix=druid/indexing-logs
 # druid_indexer_logs_directory=/opt/shared/indexing-logs
 
