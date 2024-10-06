@@ -26,6 +26,10 @@ Now, Minio server is running on port `localhost:9001`, login to the server and c
 docker-compose up -d
 ```
 * The `USER` and `PASSWORD` of some services are configured in `docker-compose.yml`, Apache Airflow's password is provided in `airflow/standalone_admin_password.txt`.
+#### SERVER
+Service | URL |
+--- | --- |
+Seconds | 301 |
 
 ### 3. Streaming data to Druid
 * The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
