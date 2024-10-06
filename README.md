@@ -14,8 +14,9 @@ Then, pull this repo and start the journey.
 ```sh
 cd StreamingEcommerceDE
 ```
-For the first time, start the MiniO service first to initialize the deepstorage containing the streaming data. Change two param user and password by yourself in file `docker-compose.yml` at the block `minio` service. Then:
+For the first time, start the MiniO service first to initialize the deepstorage containing the streaming data. Change two param `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` by yourself in file `docker-compose.yml` at the block `minio` service. Then, run command:
 ```sh
 docker-compose up -d minio
 ```
-
+Follow this [step-by-step to run Druid with deepstorage Minio](https://blog.min.io/how-to-druid-superset-minio/) to clearly. 
+Now, Minio server is running on port `localhost:9001`, login to the server and create a `druidbucket` to store segments and indexing_logs, create a service account (under the Identity menu), edit the user policy to only allow access to `druidbucket` and in the Druid configuration (`./druid/environment`) below use the service account’s `access key` and `secret key`
