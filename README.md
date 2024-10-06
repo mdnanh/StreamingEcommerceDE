@@ -1,10 +1,9 @@
 # StreamingEcommerceDE
-[![Airflow](https://img.shields.io/badge/airflow-2.9.3-white)](https://airflow.apache.org/)
-[![Kafka](https://img.shields.io/badge/kafka-5.2.0-black)](https://kafka.apache.org/)
-[![Druid](https://img.shields.io/badge/druid-0.22.1-blue)](https://druid.apache.org/)
-[![Redis](https://img.shields.io/badge/redis-6.2.6-red)](https://redis.io/)
-[![Postgres](https://img.shields.io/badge/postgres-14.1-red)](https://www.postgresql.org/)
-[![Superset](https://img.shields.io/badge/superset-1.4.1-lightgrey)](https://superset.apache.org/)
+[![Airflow](https://img.shields.io/badge/airflow-2.9.3-white)](https://airflow.apache.org/docs/)
+[![Kafka](https://img.shields.io/badge/kafka-lastest-black)](https://kafka.apache.org/documentation/)
+[![Druid](https://img.shields.io/badge/druid-30.0.0-blue)](https://druid.apache.org/docs/latest/design/)
+[![Postgres](https://img.shields.io/badge/postgres-14-alpine-blue)](https://www.postgresql.org/)
+[![Superset](https://img.shields.io/badge/superset-lastest-lightgrey)](https://superset.apache.org/)
 
 
 ## Description
