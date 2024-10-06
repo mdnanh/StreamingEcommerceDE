@@ -1,0 +1,18 @@
+
+FROM apache/superset:latest
+
+USER root
+RUN apt-get update && apt-get install -y vim 
+RUN pip install mysqlclient pydruid psycopg2
+
+ENV ADMIN_USERNAME $ADMIN_USERNAME
+ENV ADMIN_EMAIL $ADMIN_EMAIL
+ENV ADMIN_PASSWORD $ADMIN_PASSWORD
+
+COPY ./superset-init.sh /superset-init.sh
+
+COPY superset_config.py /app/
+ENV SUPERSET_CONFIG_PATH /app/superset_config.py
+
+USER superset
+ENTRYPOINT [ "/superset-init.sh" ]
