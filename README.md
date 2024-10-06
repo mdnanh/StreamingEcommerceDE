@@ -14,7 +14,7 @@ Then, pull this repo and start the journey.
 ```sh
 cd StreamingEcommerceDE
 ```
-For the first time, start the MiniO service first to initialize the deepstorage containing the streaming data. Change two param `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` by yourself in file `docker-compose.yml` at the block `minio` service. Then, run command:
+* For the first time, start the MiniO service first to initialize the deepstorage containing the streaming data. Change two param `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` by yourself in file `docker-compose.yml` at the block `minio` service. Then, run command:
 ```sh
 docker-compose up -d minio
 ```
