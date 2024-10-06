@@ -28,11 +28,11 @@ docker-compose up -d
 * The `USER` and `PASSWORD` of some services are configured in `docker-compose.yml`, Apache Airflow's password is provided in `airflow/standalone_admin_password.txt`.
 #### SERVER
 Service | URL |
------------------ | ----------------- |
-MiniO | (http://localhost:9001) |
-Apache Druid | (http://localhost:8888) |
-Apache Superset | (http://localhost:8088) |
-Apache Airflow | (http://localhost:8080) |
+--- | --- |
+MiniO | http://localhost:9001 |
+Apache Druid | http://localhost:8888 |
+Apache Superset | http://localhost:8088 |
+Apache Airflow | http://localhost:8080 |
 
 ### 3. Streaming data to Druid
 * The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
