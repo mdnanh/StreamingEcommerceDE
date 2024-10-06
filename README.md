@@ -11,6 +11,6 @@ This project is built with docker compose, so make sure you have docker and dock
 Then, pull this repo and start the journey.
 
 ### 2 Start services
-```bash
+```python
 cd StreamingEcommerceDE
 ```
