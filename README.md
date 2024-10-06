@@ -52,3 +52,13 @@ docker-compose up -d
 ![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/druid_connect.gif)
 
 * For more infomation, reach [github](https://github.com/apache/druid?tab=readme-ov-file) and about configure ingest data process, reach [Ingestion overview](https://druid.apache.org/docs/latest/ingestion/index.html).
+
+### 4. Visualization
+* From Superset server add Druid database with the sqlalchemy uri:
+```code
+druid://broker:8082/druid/v2/sql/
+```
+* More detail at [Connecting to Databases](https://superset.apache.org/docs/configuration/databases/)
+* Create dashboard with amazing chart from `Ecommerce` table
+
+![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/viz.jpg)
