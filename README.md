@@ -29,7 +29,13 @@ docker-compose up -d
 #### SERVER
 Service | URL |
 --- | --- |
-Seconds | 301 |
+MiniO | (http://localhost:9001) |
+--- | --- |
+Apache Druid | (http://localhost:8888) |
+--- | --- |
+Apache Superset | (http://localhost:8088) |
+--- | --- |
+Apache Airflow | (http://localhost:8080) |
 
 ### 3. Streaming data to Druid
 * The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
