@@ -1,5 +1,5 @@
 # StreamingEcommerceDE
-[![Airflow](https://img.shields.io/badge/airflow-2.9.3-white)](https://airflow.apache.org/docs/)
+[![Airflow](https://img.shields.io/badge/Apache Airflow-2.9.3-white)](https://airflow.apache.org/docs/)
 [![Kafka](https://img.shields.io/badge/kafka-lastest-black)](https://kafka.apache.org/documentation/)
 [![Druid](https://img.shields.io/badge/druid-30.0.0-lightblue)](https://druid.apache.org/docs/latest/design/)
 [![MiniO](https://img.shields.io/badge/MiniO-lastest-red)](https://min.io/docs/minio/kubernetes/upstream/)
