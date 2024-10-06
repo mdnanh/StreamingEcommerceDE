@@ -2,7 +2,7 @@
 [![Airflow](https://img.shields.io/badge/Airflow-2.9.3-lightgrey)](https://airflow.apache.org/docs/)
 [![Kafka](https://img.shields.io/badge/Kafka-lastest-black)](https://kafka.apache.org/documentation/)
 [![Druid](https://img.shields.io/badge/Druid-30.0.0-lightblue)](https://druid.apache.org/docs/latest/design/)
-[![MiniO](https://img.shields.io/badge/MiniO-lastest-red)](https://min.io/docs/minio/kubernetes/upstream/)
+[![MiniO](https://img.shields.io/badge/MiniO-lastest-darkred)](https://min.io/docs/minio/kubernetes/upstream/)
 [![Postgres](https://img.shields.io/badge/Postgres-14alpine-blue)](https://www.postgresql.org/)
 [![Superset](https://img.shields.io/badge/Superset-lastest-darkblue)](https://superset.apache.org/docs/intro)
 
