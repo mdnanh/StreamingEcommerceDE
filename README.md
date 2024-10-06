@@ -70,4 +70,4 @@ druid://broker:8082/druid/v2/sql/
 
 ![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/viz.jpg)
 
-`🇻🇳`
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
