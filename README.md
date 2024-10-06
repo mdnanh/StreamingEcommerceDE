@@ -29,7 +29,7 @@ docker-compose up -d
 
 ### 3. Streaming data to Druid
 * The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
-```python
+```code
 {
       'id': 274992707,
        'name': 'Hộp Cơm 3 Tầng Lunch Box Kèm Muỗng Đũa Và Túi Đựng Tiện Lợi',
@@ -48,4 +48,7 @@ docker-compose up -d
 }
 ```
 * From Druid load data from Kafka `kafka:9092`, choice `Ecommrce` topic and config data result table
+
 ![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/druid_connect.gif)
+
+
