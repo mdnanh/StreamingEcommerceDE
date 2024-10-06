@@ -48,3 +48,4 @@ docker-compose up -d
 }
 ```
 * From Druid load data from Kafka `kafka:9092`, choice `Ecommrce` topic and config data result table
+![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/druid_connect.gif)
