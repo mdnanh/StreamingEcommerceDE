@@ -20,3 +20,9 @@ docker-compose up -d minio
 ```
 Follow this [step-by-step to run Druid with deepstorage Minio](https://blog.min.io/how-to-druid-superset-minio/) to clearly. 
 Now, Minio server is running on port `localhost:9001`, login to the server and create a `druidbucket` to store segments and indexing_logs, create a service account (under the Identity menu), edit the user policy to only allow access to `druidbucket` and in the Druid configuration (`./druid/environment`) below use the service account’s `access key` and `secret key`
+
+Then, run all the services with command:
+```sh
+docker-compose up -d
+```
+The `USER` and `PASSWORD` of some services are configured in `docker-compose.yml`, Apache Airflow's password is provided in `airflow/standalone_admin_password.txt`
