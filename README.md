@@ -29,19 +29,21 @@ The `USER` and `PASSWORD` of some services are configured in `docker-compose.yml
 
 ### 3. Streaming data to Druid
 The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
-```json
-{'id': 274992707,
- 'name': 'Hộp Cơm 3 Tầng Lunch Box Kèm Muỗng Đũa Và Túi Đựng Tiện Lợi',
- 'brand_name': 'PEAFLO',
- 'price': 192000,
- 'Origin': 'Hàn Quốc / Trung Quốc',
- 'category': 'Dụng cụ chứa đựng thực phẩm',
- 'original_price': 235000,
- 'discount': 43000,
- 'discount_rate': 18,
- 'purchase_id': 'P17281500820277577',
- 'quantity': 5,
- 'city': 'Quảng Ninh',
- 'code_city': 'VN-13',
- 'create_at': '2024-10-06 00:41:22'}
+```python
+{
+  'id': 274992707,
+   'name': 'Hộp Cơm 3 Tầng Lunch Box Kèm Muỗng Đũa Và Túi Đựng Tiện Lợi',
+   'brand_name': 'PEAFLO',
+   'price': 192000,
+   'Origin': 'Hàn Quốc / Trung Quốc',
+   'category': 'Dụng cụ chứa đựng thực phẩm',
+   'original_price': 235000,
+   'discount': 43000,
+   'discount_rate': 18,
+   'purchase_id': 'P17281500820277577',
+   'quantity': 5,
+   'city': 'Quảng Ninh',
+   'code_city': 'VN-13',
+   'create_at': '2024-10-06 00:41:22'
+}
 ```
