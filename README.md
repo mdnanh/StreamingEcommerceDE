@@ -10,7 +10,7 @@ This project focuses on building a real-time e-commerce data streaming pipeline 
 This project is built with docker compose, so make sure you have docker and docker-compose installed. Follow the steps instructed in [Docker](https://docs.docker.com/get-started/get-docker/) to install it. 
 Then, pull this repo and start the journey.
 
-### 2. Start services
+### 2. Start services 🕸️
 ```sh
 cd StreamingEcommerceDE
 ```
@@ -34,7 +34,7 @@ Apache Druid | http://localhost:8888 |
 Apache Superset | http://localhost:8088 |
 Apache Airflow | http://localhost:8080 |
 
-### 3. Streaming data to Druid
+### 3. Streaming data to Druid ♾️
 * The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
 ```code
 {
@@ -60,7 +60,7 @@ Apache Airflow | http://localhost:8080 |
 
 * For more infomation, reach [github](https://github.com/apache/druid?tab=readme-ov-file) and about configure ingest data process, reach [Ingestion overview](https://druid.apache.org/docs/latest/ingestion/index.html).
 
-### 4. Visualization
+### 4. Visualization 💹
 * From Superset server add Druid database with the sqlalchemy uri:
 ```code
 druid://broker:8082/druid/v2/sql/
@@ -70,4 +70,4 @@ druid://broker:8082/druid/v2/sql/
 
 ![all_text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/viz.jpg)
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+🔥🔥🔥                                                            🤝🤝🤝                                                                  🔥🔥🔥
