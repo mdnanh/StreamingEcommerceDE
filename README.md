@@ -6,11 +6,11 @@ This project focuses on building a real-time e-commerce data streaming pipeline 
 ![alt text](https://github.com/mdnanh/StreamingEcommerceDE/blob/main/images/architecture.png)
 
 ## Init
-### 1 Installation
+### 1. Installation
 This project is built with docker compose, so make sure you have docker and docker-compose installed. Follow the steps instructed in [Docker](https://docs.docker.com/get-started/get-docker/) to install it. 
 Then, pull this repo and start the journey.
 
-### 2 Start services
+### 2. Start services
 ```sh
 cd StreamingEcommerceDE
 ```
@@ -26,3 +26,6 @@ Then, run all the services with command:
 docker-compose up -d
 ```
 The `USER` and `PASSWORD` of some services are configured in `docker-compose.yml`, Apache Airflow's password is provided in `airflow/standalone_admin_password.txt`
+
+### 3. Streaming data to Druid
+The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
