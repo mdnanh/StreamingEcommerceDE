@@ -6,8 +6,8 @@ import json
 from kafka import KafkaProducer
 
 
-product_list= pd.read_csv("data_ncds_full.csv")
-city= pd.read_csv("city.csv", index_col= False)
+product_list= pd.read_csv("./data_ecom/data_ncds_full.csv")
+city= pd.read_csv("./data_ecom/city.csv", index_col= False)
 
 KAFKA_HOST_IP="localhost"
 TOPIC = 'Ecommerce'
