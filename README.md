@@ -44,7 +44,7 @@ Apache Superset | http://localhost:8088 |
 Apache Airflow | http://localhost:8080 |
 
 ### 3. Streaming data to Druid ♾️
-* The file `KafkaProducerEcomm.py` sent a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
+* The file `KafkaProducerEcomm.py` send a message demo data to Kafka `Ecommerce` topic every second with fake transaction data, the structure of data message as below:
 ```code
 {
       'id': 274992707,
